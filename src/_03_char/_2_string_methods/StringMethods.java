@@ -16,8 +16,8 @@ System.out.println(name.length());
 		
 		// 4. Using a for loop, print one char at time to the console.
 		//    HINT: use .length() to determine how many loops
-for (int i = 0; i < 3; i++) {
-
+for (int i = 0; i < name.length(); i++) {
+System.out.println(name.charAt(i));
 }
 		
 		// 5. Pick a char inside your String, and use a loop to determine
@@ -26,6 +26,12 @@ for (int i = 0; i < 3; i++) {
 		//    EXAMPLE: if your string is "abc" and you are searching 
 		//             for char 'b', then print "b is at index 1"
 		
+for (int i = 0; i < name.length(); i++) {
+	if (name.charAt(i)=='a') {
+		System.out.println(name.charAt(i));
+	} 
+}
+	
 	}
 }
 
