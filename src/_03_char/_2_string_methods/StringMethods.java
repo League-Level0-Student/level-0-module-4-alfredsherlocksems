@@ -25,7 +25,7 @@ System.out.println(name.charAt(i));
 		//    Print the char's position to the console.
 		//    EXAMPLE: if your string is "abc" and you are searching 
 		//             for char 'b', then print "b is at index 1"
-		
+		   
 for (int i = 0; i < name.length(); i++) {
 	if (name.charAt(i)=='a') {
 		System.out.println(name.charAt(i));
